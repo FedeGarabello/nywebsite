@@ -7,6 +7,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/icon?familiy=Materia+Icons');
+
 .container {
     max-width: 960px;
     padding-right: 15px;
@@ -73,6 +79,10 @@
 
 .flex-column {
   flex-direction: column !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
 }
 
 .justify-content-start {

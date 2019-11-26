@@ -55,16 +55,19 @@ header nav ul li {
 
 .btn {
     margin-top: 20px;
+    padding: 10px 40px;
     height: 40px;
     width: 150px;
     border-radius: 40px;
     background-color: white;
+    color: black;
 }
 
-.btn a{
-color: black;
-font-weight: 600;
-font-size: 16px;
+.btn:hover {
+    background-color: #cd0a6b;
+    color: white;
+    transition: 1s;
+
 }
 
 .to-see {
@@ -110,17 +113,19 @@ font-size: 16px;
 
 .btn-act {
     margin-top: 20px;
+    padding: 10px 40px;
     height: 40px;
-    width: 160px;
+    width: 150px;
     border-radius: 40px;
     background-color: #cd0a6b;
-    border: none;
+    color: white;
 }
 
-.btn-act a{
-color: white;
-font-weight: 600;
-font-size: 16px;
+.btn-act:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+
 }
 
 footer {
@@ -143,3 +148,297 @@ footer div ul li a {
     color: black;
     cursor: pointer;
 }
+
+/* Tourism section */
+
+#tourism {
+    height: 85vh;
+    background-image: url(img/banner-tourism.png);
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 10px;
+}
+
+.activity {
+    height: 60vh;
+}
+
+
+.img-tour {
+    border-radius: 30px;
+}
+
+.ul-1-tour {
+    margin-top: 80px;
+}
+
+.ul-2-tour {
+    position: relative;
+    top: 30px;
+}
+
+.places-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-holder img {
+    border-radius: 30px;
+    width: 220px;
+}
+
+.img-places {
+    height: 220px;
+    width: 220px;
+    display: block;
+    border-radius: 30px;
+}
+
+.post {
+    position: relative;
+}
+
+.post:hover .post-s {
+    width: 220px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.post-s {
+    width: 0px;
+    height: 220px;
+    background: #cd0a6b8c;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: 0.4s ease;
+}
+
+.post-s h3 {
+    padding: 8px;
+    color: white;
+    border: .5px solid white;
+}
+
+.selector {
+    -webkit-box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.select-option {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    position: relative;
+}
+
+.select-option select {
+    
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+}
+
+.select-option:after {
+    content: 'keyboard_arrow_down';
+    font-family: 'material icons';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.select-option-hour {
+    margin-left: 15px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    position: relative;
+}
+
+.select-option-hour select {
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+}
+
+.select-option-hour:after {
+    content: 'keyboard_arrow_down';
+    font-family: 'material icons';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-act-tours {
+    height: 40px;
+    width: 160px;
+    border-radius: 40px;
+    background-color: #cd0a6b;
+    border: none;
+    position: absolute;    
+}
+
+.btn-act-tours a{
+color: white;
+font-weight: 600;
+font-size: 16px;
+}
+
+.banner-cut {
+    position: relative;
+    height: 40vh;
+}
+
+.banner-cut div:first-child {
+    background-color: black;
+    height: 40%;
+}
+
+.banner-cut div:last-child {
+    z-index: 999;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 650px;
+    background-color: #cd0a6b;
+    height: 40%;
+    bottom: 0;
+    position: relative;
+    top: -20%;
+    padding: 15px 55px;
+    color: white;
+}
+
+/* Info Section */
+
+#info {
+    height: 100vh;
+    background-image: url(img/banner-info.png);
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 10px;
+}
+
+.info-txt-container {
+    width: 70%;
+    color: white;
+}
+
+.info-txt-container h2{
+    font-size: 60px;
+}
+
+.to-met {
+    height: 90vh;
+}
+
+.to-met div:first-child {
+    left: 80px;
+    position: relative;
+    z-index: 999;
+    height: 50%;
+    width: 40%;
+    background-color: #cd0a6b;
+}
+
+.to-met div:last-child {
+    position: relative;
+    height: 100%;
+    width: 90%;
+    background-color: black;
+}
+
+.to-met-1 p:first-child {
+    font-size: 30px;
+    font-weight: 800;
+    width: 300px;
+    margin: auto;
+}
+
+.to-met-2 p {
+    width: 600px;
+    font-size: 20px;
+}
+
+/* contact section */
+
+#contact {
+    height: 80vh;
+    background-image: url(img/banner-info.png);
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 10px;
+}
+
+.contact-us div:first-child {
+    width: 50%;
+    height: 60vh;
+}
+
+.contact-us h2 {
+    font-size: 35px;
+}
+
+.contact-us div:last-child {
+    width: 50%;
+    height: 60vh;
+}
+
+.contact-us input {
+    color: white;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 400px;
+    margin: 35px 0;
+}
+
+.contact-us input::placeholder {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.btn-ctc {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: #cd0a6b;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
