@@ -449,7 +449,10 @@ footer div ul li a {
     border: none;
 }
 
-
+.send-msj {
+    height: 100vh;
+    background-color: black;
+}
 
 
 
