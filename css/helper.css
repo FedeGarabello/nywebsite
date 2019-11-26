@@ -711,3 +711,8 @@ html {
 .pl-5 {
   padding-left: 3rem !important;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}

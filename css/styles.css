@@ -71,7 +71,7 @@ header nav ul li {
 }
 
 .to-see {
-    height: 80vh;
+    height: 60vh;
 }
 
 .to-see-title {
@@ -160,9 +160,9 @@ footer div ul li a {
 }
 
 .activity {
-    height: 60vh;
-}
 
+    height: 35vh;
+}
 
 .img-tour {
     border-radius: 30px;
@@ -293,22 +293,25 @@ footer div ul li a {
 }
 
 .btn-act-tours {
-    height: 40px;
-    width: 160px;
+    color: white;
+    padding: 10px 50px;
     border-radius: 40px;
     background-color: #cd0a6b;
     border: none;
-    position: absolute;    
 }
 
-.btn-act-tours a{
-color: white;
-font-weight: 600;
-font-size: 16px;
+.payment-methods div:first-child h3 {
+    color: #cd0a6b;
+}
+
+.payment-methods div:first-child p {
+    width: 100%;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 13px;
 }
 
 .banner-cut {
-    position: relative;
     height: 40vh;
 }
 
@@ -352,6 +355,19 @@ font-size: 16px;
 
 .to-met {
     height: 90vh;
+}
+
+.basic-info a {
+    color: #cd0a6b;
+    cursor: pointer;
+}
+
+.basic-info {
+    height: 100vh;
+    background-image: url(img/back-basi-info.png);
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
 }
 
 .to-met div:first-child {
